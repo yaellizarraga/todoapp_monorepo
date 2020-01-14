@@ -1,0 +1,13 @@
+{
+    "env" : "development",
+    "mongo": {
+        "development": {
+            "host" : "localhost",
+            "port" : "27017"
+        },
+        "production": {
+            "host": "todo-mongo",
+            "port" : "27017"
+        }
+    }
+}
