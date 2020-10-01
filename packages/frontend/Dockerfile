@@ -10,6 +10,4 @@ COPY . .
 
 EXPOSE 3000
 
-ENV REACT_APP_NODE_ENV="produccion"
-
 CMD ["npm", "start"]

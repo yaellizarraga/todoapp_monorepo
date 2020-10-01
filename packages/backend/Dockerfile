@@ -10,8 +10,6 @@ RUN npm install nodemon
 
 COPY . .
 
-ENV NODE_ENV="production"
-
 EXPOSE 4000
 
 CMD ["npm", "start"]
